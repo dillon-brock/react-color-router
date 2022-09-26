@@ -5,7 +5,7 @@ export default function Home() {
   const colors = [];
   for (let i = 0; i < 12; i++) {
     let color = [];
-    for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
       color.push(Math.floor(Math.random() * 256));
     }
     colors.push(color);
