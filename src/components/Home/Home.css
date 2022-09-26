@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+
+.home-main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+  position: absolute;
+  left: 40vw;
+  right: 40vw;
+  width: 20vw;
+  top: 41vh;
+  height: 18vh;
+  background: white;
+  border-radius: 8px;
+  border: 4px solid black;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: italic;
+}
