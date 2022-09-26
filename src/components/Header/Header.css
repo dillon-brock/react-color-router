@@ -1,0 +1,24 @@
+header {
+  background: #ffffff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a.active.light-green {
+  color: rgb(189, 227, 185);
+}
+
+a.active.navy-blue {
+  color: rgb(54, 83, 142)
+}
+
+a.active.pink {
+  color: rgb(250, 164, 224)
+}
