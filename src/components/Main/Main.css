@@ -1,0 +1,14 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main p {
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #2f4f4f;
+}
+
